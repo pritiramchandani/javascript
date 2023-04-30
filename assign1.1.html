@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = "Love";
+        var b = "You" ;
+        var c= "I ";
+        var temp="";
+        temp=a
+        // ""=love temp=love,
+        a=b;
+        // love=you , a=you
+        b=temp
+        // you="love" , b=love
+
+        temp=c
+        // love=I , temp=I
+
+       
+        c= a;
+        // I= you ,c=I
+        a=temp;
+        // you=I , a=I
+        
+        // console.log("b",b);
+        console.log("a",a+b+c);
+    </script>
+
+</body>
+
+</html>
